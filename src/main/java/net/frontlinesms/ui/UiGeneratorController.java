@@ -321,7 +321,7 @@ public class UiGeneratorController extends FrontlineUI implements EmailListener,
 			Integer height = uiProperties.getWindowHeight();
 			if(height == null) height = DEFAULT_HEIGHT;
 			
-			final String WINDOW_TITLE = "FrontlineSMS " + BuildProperties.getInstance().getVersion();
+			final String WINDOW_TITLE = "PatientView";
 			frameLauncher = new FrameLauncher(WINDOW_TITLE, this, width, height, getIcon(Icon.FRONTLINE_ICON));
 			if (uiProperties.isWindowStateMaximized()) {
 				//Is maximised
