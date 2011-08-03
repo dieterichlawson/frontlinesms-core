@@ -64,5 +64,4 @@
 		</panel>
 		<label name="lbActiveConnections" icon="/icons/connection.png" font="bold" text="0" halign="right"/>
 	</panel>
-	
 </panel>
